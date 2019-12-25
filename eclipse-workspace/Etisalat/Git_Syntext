@@ -1,0 +1,30 @@
+
+//Navigate& commit tree
+---------------------------------
+//present all commits
+	-Git log  
+//present last Commits by N		
+	-Git log -N 
+//present last commit by time 	
+	-Git log --Since=Y.M.D	
+//present last commit by time
+	-Git log --until= N days ago 
+//present last commit by time
+   	-Git log --befor/after= N.Week 	
+//present last commit by author name    	
+	-Git log --author="Name"
+//present commits that incloude the file name 	
+	-Git log filename.ext 
+//present the commits in graph style	 
+		-Git --graph 
+-------------------------------------
+//Branches
+----------------------------------------------
+// to present the current branches
+	- Git branch 
+//create a new branch 
+	- Git branch Branch_name
+//Too switch betwen branches
+	-Git checkout branch_name	 	
+
+
