@@ -46,8 +46,18 @@
 	- Git status 
 // TO add the new changes 
 	- Git add . 
+// TO commit the changes localy 
+	- Git commit -am "Commit name"	
 // To push the commited changes 
 	- Git push origin master
-		
+// To get the changes on remote 
+	- Git fetch 
+// To merge the fetch and branches 
+	- Git merge origin master 
+// To pring every thing on the server and put it local 
+	-Git pull 
+// To delete a pushed branch
+	- Git push origin --delete branch_name
+						
 
 
