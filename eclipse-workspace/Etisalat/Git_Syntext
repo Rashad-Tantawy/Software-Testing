@@ -16,7 +16,7 @@
 //present commits that incloude the file name 	
 	-Git log filename.ext 
 //present the commits in graph style	 
-		-Git --graph 
+		-Git log --graph 
 -------------------------------------
 //Branches
 ----------------------------------------------
@@ -24,7 +24,34 @@
 	- Git branch 
 //create a new branch 
 	- Git branch Branch_name
+// To create and switch to another branch at the same time 
+	- Git checkout -B New_branch_name 	
 //Too switch betwen branches
 	-Git checkout branch_name	 	
+// To show the different betwenn branches 
+	- Git diff master..Branch_name
+// To display the merged branches
+	- Git branch --merged
+//To merge branch 
+	- Git merge Branch_name
+//To change the branch name 
+	- Git branch -m New_branch_name
+		 		
+	
+	
+-----------------------------------------
+//Other
+---------------------------------------------------
+//to display the status 
+	- Git status 
+// TO add the new changes 
+	- Git add . 
+// To push the commited changes 
+	- Git push origin master
+------------------------------------------------------
+//Stash
+-------------------------------------------------------------------
+	
+					
 
 
